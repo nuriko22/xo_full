@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe with Bot</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="ctr">
+    <div class="backgr">
+        <div class="description">
+            <div class="box3"></div>
+            <div class="box1">
+                <h5 class="des">Description</h5>
+                <h3 class="text"><p>Tic-tac-toe is</p><p>a logical game</p><p>between two</p><p>opponents on</p><p>a square field </p><p>of 3 by 3 cells</p></h3>
+            </div>
+        </div>
+        <div class="settings">
+            <div class="box4"></div>
+            <div class="box2">
+                <div class="f1b"></div>
+                <div class="f2b"></div>
+                <h5 class="set">Settings</h5>
+                <h3 class="textSettings">
+                    <p>Game with Bot:</p>
+                    <p><a href="playWithPc.html">ㅤClick here</a></p><br>
+                    <p>ㅤGame with 2<br>ㅤㅤpeople:</p>
+                    <p><a href="index.html">ㅤClick here</a></p>
+                </h3>
+            </div>
+        </div>
+    <div class="backboard ctr">
+        <div class="circle ctr">
+            <div class="board">
+                <span id="button1" onclick="butt(0, 0, 0)"></span>
+                <span id="button2" onclick="butt(1, 0, 1)"></span>
+                <span id="button3" onclick="butt(2, 0, 2)"></span>
+                <span id="button4" onclick="butt(3, 1, 0)"></span>
+                <span id="button5" onclick="butt(4, 1, 1)"></span>
+                <span id="button6" onclick="butt(5, 1, 2)"></span>
+                <span id="button7" onclick="butt(6, 2, 0)"></span>
+                <span id="button8" onclick="butt(7, 2, 1)"></span>
+                <span id="button9" onclick="butt(8, 2, 2)"></span>
+            </div>
+            <a href="#" id="reset" onclick="reset()">Reset</a>
+        </div>
+    </div>
+    <div class="author">Made by <a href="http://vk.com/idi.pospi1">Nikita Samarin</a></div>
+    </div>
+    <script src="bot.js"></script>
+</body>
+</html>

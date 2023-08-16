@@ -1,0 +1,242 @@
+@font-face {
+	font-family: 'Zlusa font'; 
+	src: url(BarcadeBrawlRegular.ttf);
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Text';
+    src: url(Capitulosnew.ttf);
+}
+
+body {
+    background: rgb(72, 161, 219); /* Задний фон */
+}
+
+.ctr { /* все объекты, которые содержат класс ctr перемещаються в цент */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgr {
+    background: rgb(72, 161, 219);
+    width: 1000px;
+    height: 10px;
+    position: fixed;
+    left: 344px;
+    padding-top: 20px;
+}
+
+.description {
+    background: #285ca1;
+    width: 300px;
+    height: 570px;
+    border-radius: 20px;
+    position: fixed;
+    left: 20px;
+    box-shadow: -10px 5px 0px -2px #192852;
+}
+
+.des {
+    font-family: 'Zlusa font';
+    text-shadow: -2px 4px #012b53;
+    color: #fff;
+    position: fixed;
+    top: 30px;
+    left: 88px;
+}
+
+.box1 {
+    background: rgb(96, 151, 188);
+    border-radius: 20px;
+    box-shadow: -7px 5px 0px -2px #192852;
+    width: 200px;
+    height: 40px;
+    position: fixed;
+    top: 40px;
+    left: 68px;
+}
+
+.text {
+    font-family: 'Text';
+    text-shadow: -4px 3px #00172d, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    top: 150px;
+    left: 85px;
+}
+
+.settings {
+    background: #285ca1;
+    width: 300px;
+    height: 570px;
+    border-radius: 20px;
+    position: fixed;
+    left: 1165px;
+    box-shadow: -10px 5px 0px -2px #192852;
+}
+
+.set {
+    font-family: 'Zlusa font';
+    text-shadow: -2px 4px #012b53;
+    color: #fff;
+    position: fixed;
+    top: 30px;
+    left: 1255px;
+}
+
+.f1b {
+    background: rgb(96, 151, 188);
+    border-radius: 10px;
+    box-shadow: -7px 5px 0px -2px #192852;
+    width: 180px;
+    height: 40px;
+    position: fixed;
+    top: 217px;
+    left: 1226px;
+}
+
+.f2b {
+    background: rgb(96, 151, 188);
+    border-radius: 10px;
+    box-shadow: -7px 5px 0px -2px #192852;
+    width: 180px;
+    height: 40px;
+    position: fixed;
+    top: 392px;
+    left: 1226px;
+}
+
+.textSettings {
+    font-family: 'Text';
+    text-shadow: -4px 3px #00172d, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    top: 130px;
+    left: 1231px;
+}
+
+.box2 {
+    background: rgb(96, 151, 188);
+    border-radius: 20px;
+    box-shadow: -7px 5px 0px -2px #192852;
+    width: 200px;
+    height: 40px;
+    position: fixed;
+    top: 40px;
+    left: 1215px;
+}
+
+.box3 {
+    background: #76afd6;
+    border-radius: 20px;
+    box-shadow: -10px 5px 0px -2px #192852;
+    border: 2px solid #0d152b;
+    width: 250px;
+    height: 430px;
+    position: fixed;
+    top: 120px;
+    left: 45px;
+}
+
+.box4 {
+    background: #76afd6;
+    border-radius: 20px;
+    box-shadow: -10px 5px 0px -2px #192852;
+    border: 2px solid #0d152b;
+    width: 250px;
+    height: 430px;
+    position: fixed;
+    top: 120px;
+    left: 1190px;
+}
+
+.backboard {
+    background: #285ca1;
+    width: 800px;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: -10px 5px 0px -2px #192852;
+}
+
+.circle { /* Круг с доской для игры */
+    width: 480px;
+    height: 480px;
+    background: #76afd6;
+    border-radius: 100%;
+    border: 1px solid #0d152b;
+    box-shadow: -2px 20px 0 -3px #4283c4, -20px 20px #0d152b;
+    flex-direction: column;
+}
+
+.board { /* Доска для игры */
+    width: 369.2307692308px;
+    height: 369.2307692308px;
+    background: #d3e2ea;
+    border-radius: 20px;
+    border: 1px solid #0d152b;
+    box-shadow: -10px 5px 0px -2px #192852;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    padding: 12px;
+}
+
+span { /* Кнопки */
+    background: #76afd6;
+    color: #fff;
+    font-size: 4em;
+    padding-left: 9px;
+    padding-top: 6px;
+    text-align: center;
+    border: 2px solid #0d152b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: -1.2px 2px 0px 0px #141d4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span:hover { /* Кнопки при наведении курсора */
+    background: #6aa8d2;
+}
+
+span:active { /* Кнопки при нажатии */
+    box-shadow: -1.2px 7.4px 0px -2.5px #141d4c;
+}
+
+#reset { /* Кнопка перезапуска/перезагрузки */
+    user-select: none;
+    font-family: 'Zlusa font'; 
+    text-shadow: -3px 4px #012b53;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.win { /* Кнопки после победы */
+    background: #55efc4 !important;
+}
+
+.author {
+    font-family: 'Zlusa font';
+    text-shadow: -5px 4px #012b53;
+    color: #fff;
+    position: fixed;
+    left: 40px;
+    top: 660px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
