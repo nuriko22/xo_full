@@ -21,20 +21,20 @@ body {
 
 .backgr {
     background: rgb(72, 161, 219);
-    width: 1000px;
-    height: 10px;
+    width: 67.34%;
+    height: 1.33%;
     position: fixed;
-    left: 344px;
-    padding-top: 20px;
+    left: 23.165%;
+    padding-top: 2.66%;
 }
 
 .description {
     background: #285ca1;
-    width: 300px;
-    height: 570px;
+    width: 20.202%;
+    height: 76%;
     border-radius: 20px;
     position: fixed;
-    left: 20px;
+    left: 1.35%;
     box-shadow: -10px 5px 0px -2px #192852;
 }
 
@@ -43,19 +43,19 @@ body {
     text-shadow: -2px 4px #012b53;
     color: #fff;
     position: fixed;
-    top: 30px;
-    left: 88px;
+    top: 4%;
+    left: 5.925%;
 }
 
 .box1 {
     background: rgb(96, 151, 188);
     border-radius: 20px;
     box-shadow: -7px 5px 0px -2px #192852;
-    width: 200px;
-    height: 40px;
+    width: 13.47%;
+    height: 5.33%;
     position: fixed;
-    top: 40px;
-    left: 68px;
+    top: 5.33%;
+    left: 4.58%;
 }
 
 .text {
@@ -64,17 +64,17 @@ body {
     font-size: 22px;
     color: #ffffff;
     position: fixed;
-    top: 150px;
-    left: 85px;
+    top: 20%;
+    left: 5.724%;
 }
 
 .settings {
     background: #285ca1;
-    width: 300px;
-    height: 570px;
+    width: 20.202%;
+    height: 76%;
     border-radius: 20px;
     position: fixed;
-    left: 1165px;
+    left: 78.45%;
     box-shadow: -10px 5px 0px -2px #192852;
 }
 
@@ -83,30 +83,30 @@ body {
     text-shadow: -2px 4px #012b53;
     color: #fff;
     position: fixed;
-    top: 30px;
-    left: 1255px;
+    top: 4%;
+    left: 84.51%;
 }
 
 .f1b {
     background: rgb(96, 151, 188);
     border-radius: 10px;
     box-shadow: -7px 5px 0px -2px #192852;
-    width: 180px;
-    height: 40px;
+    width: 12.12%;
+    height: 5.33%;
     position: fixed;
-    top: 217px;
-    left: 1226px;
+    top: 28.93%;
+    left: 82.559%;
 }
 
 .f2b {
     background: rgb(96, 151, 188);
     border-radius: 10px;
     box-shadow: -7px 5px 0px -2px #192852;
-    width: 180px;
-    height: 40px;
+    width: 12.12%;
+    height: 5.33%;
     position: fixed;
-    top: 392px;
-    left: 1226px;
+    top: 52.26%;
+    left: 82.559%;
 }
 
 .textSettings {
@@ -115,19 +115,19 @@ body {
     font-size: 22px;
     color: #ffffff;
     position: fixed;
-    top: 130px;
-    left: 1231px;
+    top: 17.33%;
+    left: 82.896%;
 }
 
 .box2 {
     background: rgb(96, 151, 188);
     border-radius: 20px;
     box-shadow: -7px 5px 0px -2px #192852;
-    width: 200px;
-    height: 40px;
+    width: 13.47%;
+    height: 5.33%;
     position: fixed;
-    top: 40px;
-    left: 1215px;
+    top: 5.33% ;
+    left: 81.81%;
 }
 
 .box3 {
@@ -135,11 +135,11 @@ body {
     border-radius: 20px;
     box-shadow: -10px 5px 0px -2px #192852;
     border: 2px solid #0d152b;
-    width: 250px;
-    height: 430px;
+    width: 16.83%;
+    height: 57.33%;
     position: fixed;
-    top: 120px;
-    left: 45px;
+    top: 16%;
+    left: 3.03%;
 }
 
 .box4 {
@@ -147,24 +147,24 @@ body {
     border-radius: 20px;
     box-shadow: -10px 5px 0px -2px #192852;
     border: 2px solid #0d152b;
-    width: 250px;
-    height: 430px;
+    width: 16.83%;
+    height: 57.33%;
     position: fixed;
-    top: 120px;
-    left: 1190px;
+    top: 16%;
+    left: 80.1347%;
 }
 
 .backboard {
     background: #285ca1;
-    width: 800px;
-    height: 570px;
+    width: 80%;
+    height: 5700%;
     border-radius: 20px;
     box-shadow: -10px 5px 0px -2px #192852;
 }
 
 .circle { /* Круг с доской для игры */
-    width: 480px;
-    height: 480px;
+    width: 60%;
+    height: 84.21%;
     background: #76afd6;
     border-radius: 100%;
     border: 1px solid #0d152b;
@@ -173,8 +173,8 @@ body {
 }
 
 .board { /* Доска для игры */
-    width: 369.2307692308px;
-    height: 369.2307692308px;
+    width: 76.92%;
+    height: 76.92%;
     background: #d3e2ea;
     border-radius: 20px;
     border: 1px solid #0d152b;
@@ -228,8 +228,8 @@ span:active { /* Кнопки при нажатии */
     text-shadow: -5px 4px #012b53;
     color: #fff;
     position: fixed;
-    left: 40px;
-    top: 660px;
+    left: 2.69%;
+    top: 88%;
 }
 
 a:link {
