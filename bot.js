@@ -1,5 +1,3 @@
-// el.style.background = "url('https://img.icons8.com/?size=96&id=pNXET7bXhanM&format=png')";
-// el.style.backgroundColor = "#2ffabd"; win color
 let counter = 1;
 let pole = [[33, 44, 55],
 [66, 77, 88],
